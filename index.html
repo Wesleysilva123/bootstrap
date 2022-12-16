@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+<div class=" jumbotron text-center">
+   <h1 class="display-3">Cocina del Jef</h1>
+
+   <p>Delivery de comida brasileira em São Paulo</p>
+
+   <p>Para imprimir nossas receitas tecle <kbd>Ctrl+P</kbd></p>
+
+  <mark>Peça pelo app</mark>
+</div>
+<div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">produtos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">serviços</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Recomendação</h3>
+          <img src="https://st.depositphotos.com/1003814/4626/i/600/depositphotos_46267763-stock-photo-fried-chicken-fillets.jpg" class="img-thumbnail">
+          <p>filetes de frango frito</p>
+          <p>filetes de frango fritos com batatas e salada</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Recomendação</h3>
+          <img src="https://st2.depositphotos.com/1373322/5309/i/450/depositphotos_53098709-stock-photo-duck-legs-baked-with-apples.jpg" class="img-thumbnail">
+          <p>pato assado com maça e tomate</p>
+          <p>coxa de pato assado acompanhado de maça e tomate</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Recomendação</h3>
+          <img src="https://static8.depositphotos.com/1005629/806/i/600/depositphotos_8068134-stock-photo-pasta-with-olives-and-parsley.jpg" class="img-thumbnail">
+          <p>massa com azeitona e salsa</p>
+          <p>massa italiana com salsa e azeitona</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <li class="list-group-item">Prato 1</li>
+          <img src="https://static3.depositphotos.com/1000691/109/i/600/depositphotos_1098427-stock-photo-cheeseburger.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-sm-4">
+          <li class="list-group-item-action">Prato 2 (escolha do dia)</li>
+          <img src="https://st3.depositphotos.com/13324256/35557/i/600/depositphotos_355577530-stock-photo-close-creamy-garlic-sauce-dill.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-sm-4">
+          <li class="list-group-item">Prato 3</li>
+          <img src="https://static6.depositphotos.com/1066961/552/i/600/depositphotos_5526915-stock-photo-grilled-panini.jpg" class="img-thumbnail">
+     </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+<div>
+ <table class="table table-secondary table-bordered jumbotron table-hover">
+  <thead>
+   <th>Pratos</th>
+   <th>peso</th>
+   <th>preço</th>
+ </thead>
+<tbody>
+  <tr>
+    <td>Filetes de Frango</td>
+    <td>350g</td>
+  <td>65R$</td>
+</tr>
+  <td>Pato Assado</td>
+  <td>400g</td>
+  <td>32R$</td>
+<tr>
+  <td>Massa Italiana</td>
+  <td>200g</td>
+  <td>40R$</td>
+</tr>
+<tr>
+  <td>Filetes de Frango</td>
+  <td>350g</td>
+<td>65R$</td>
+</tr>
+<tr>
+  <td>Hamburguer</td>
+  <td>300g</td>
+<td>15R$</td>
+</tr>
+<tr>
+  <td>Batata frita com molho</td>
+  <td>150g</td>
+<td>12R$</td>
+</tr>
+<tr>
+  <td>sanduiche</td>
+  <td>100g</td>
+<td>5R$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=" jumbotron text-center">
+<form action="envio.php" class="was-validated">
+  <div class="form-group">
+    <label for="cliente">Nome:</label>
+    <input type="text" class="form-control" id="cliente" name="cliente">
+    <div class="valid-feedback">ok</div>
+    <div class="invalid-feedback">Ops! Verifique seu nome</div>
+  </div>
+  <div class="form-group">
+    <label for="telefone">Telefone:</label>
+    <imput type="email" class="form-control" id="email" name="email">
+      <div class="valid-feedback">ok</div>
+      <div class="invalid-feedback">Ops! verifique seu email</div>
+  </div>
+  <div class="form-group">
+    <label for="cliente">Email</label>
+    <textarea class="form-control" name="pedido"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+
+<!--___________________________________________________________________________________________________________________________________________________________________________________________________________-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
